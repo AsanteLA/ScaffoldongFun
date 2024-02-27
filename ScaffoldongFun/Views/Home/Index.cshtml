@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Manager
+
+<form method="post">
+    <label asp-for="PlayerId">Player ID:</label>
+    <input asp-for="PlayerId"/>
+    <br />
+    <label asp-for="YearId">Year ID:</label>
+    <input asp-for="YearId" />
+    <br />
+    <label asp-for="TeamId">Team ID:</label>
+    <input asp-for="TeamId" />
+    <br />
+    <button type="submit">Submit</button>
+</form>
